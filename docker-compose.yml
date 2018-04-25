@@ -1,0 +1,11 @@
+version: '3'
+
+# example of including arguments
+services:
+  web:
+    build:
+        context: .
+        args:
+            - SSH_PRIVATE_KEY
+    volumes:
+        - .:/code

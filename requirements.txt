@@ -1,0 +1,3 @@
+Django
+# private package from GitHub
+git+ssh://git@github.com/bmihelac/django-import-export-secret.git#egg=django-import-export
